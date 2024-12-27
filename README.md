@@ -1,4 +1,4 @@
-# College Practicum - Structured Programming AY2021-2022
+# College Practicum - Structured Programming Semerster 1 (AY2021-2022)
 
 ## Author
 
