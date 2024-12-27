@@ -27,15 +27,24 @@ int main()
     for (int i = 0; i < strlen(copiedText); i++)
     {
         // Convert specific letters to old spellings
-        if (copiedText[i] == 'U') {
+        if (copiedText[i] == 'U') 
+		{
             cout << "OE";
-        } else if (copiedText[i] == 'J') {
+        } 
+		else if (copiedText[i] == 'J') 
+		{
             cout << "DJ";
-        } else if (copiedText[i] == 'Y') {
+        } 
+		else if (copiedText[i] == 'Y') 
+		{
             cout << "J";
-        } else if (copiedText[i] == 'C') {
+        } 
+		else if (copiedText[i] == 'C') 
+		{
             cout << "TJ";
-        } else {
+        } 
+		else 
+		{
             cout << copiedText[i];  // Print the character as is
         }
     }

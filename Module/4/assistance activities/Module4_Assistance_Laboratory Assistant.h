@@ -1,4 +1,5 @@
 // Module4_Assistance_Laboratory Assistant.h
+
 #define output cout
 #define jika if
 #define lain else
@@ -13,8 +14,10 @@ int y = 1, x = 1;
 // Function to print the letter 'R'
 void R()
 {
-    jika (y <= 5) {  // Loop for rows
-        jika (x <= 5) {  // Loop for columns
+    jika (y <= 5) 
+	{  // Loop for rows
+        jika (x <= 5) 
+		{  // Loop for columns
             // Condition to print '*' to form the letter 'R'
             jika (y == 3 || y == 1 || x == 1 || x == 5 && y <= 3 || y == x && y > 3)
                 output << "*"; 

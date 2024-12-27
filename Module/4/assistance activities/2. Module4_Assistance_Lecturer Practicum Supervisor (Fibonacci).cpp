@@ -7,18 +7,22 @@ int a = 0, b = 1, c = 1, n;
 void fibonacciSequence(int n)
 {
     // Base condition to stop the recursion
-    if (c <= n) {
+    if (c <= n) 
+	{
         // If 'c' is odd, sum a and b
-        if (c % 2 == 1) {
+        if (c % 2 == 1) 
+		{
             a = a + b;
             cout << a << " ";
         }
         // If 'c' is even, sum b and a
-        else {
+        else 
+		{
             b = b + a;
             cout << b << " ";
         }
         c++;
+
         // Recursion continues
         return fibonacciSequence(n);
     }
@@ -28,7 +32,7 @@ int main()
 {
     cout << "==============================" << endl;
     cout << "   Fibonacci Sequence Output  " << endl;
-    cout << "==============================" << endl << endl;
+    cout << "==============================\n" << endl;
 
     // Input for the limit of the Fibonacci sequence
     cout << "Input Sequence Limit: "; 

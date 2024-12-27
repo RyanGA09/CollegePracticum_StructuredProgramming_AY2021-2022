@@ -15,7 +15,8 @@ int main()
     cout << "Number of Customers: "; cin >> numOfCustomers; cout << "\n";
     cin.ignore(); // To clear the input buffer
 
-    do {
+    do 
+	{
         i++;
         cout << "First Name: ";
         cin.getline(firstName, 50);
@@ -40,7 +41,8 @@ int main()
         cout << "Enter your menu choice: "; cin >> menuCode;
 
         // Process the selected menu item
-        switch (menuCode) {
+        switch (menuCode) 
+		{
             case 1:
                 foodName[i] = "Fried Rice";
                 foodPrice = 12000;
@@ -84,7 +86,8 @@ int main()
 
         cin.ignore(); // Clear input buffer before next loop iteration
 
-    } while (repeatOrder != 'n'); // Repeat until the customer chooses not to order anymore
+    } 
+	while (repeatOrder != 'n'); // Repeat until the customer chooses not to order anymore
 
     cout << "THANK YOU FOR ORDERING\nPLEASE COME BACK AGAIN!\n";
     return 0;

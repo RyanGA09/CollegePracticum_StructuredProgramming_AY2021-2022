@@ -24,16 +24,26 @@ int main()
 
     // Displaying old spelling (old language)
     cout << "Old spelling: ";
-    for (int i = 0; i < strlen(reversedText); i++) {
-        if (reversedText[i] == 'U') {
+    for (int i = 0; i < strlen(reversedText); i++) 
+	{
+        if (reversedText[i] == 'U') 
+		{
             cout << "OE";
-        } else if (reversedText[i] == 'J') {
+        } 
+		else if (reversedText[i] == 'J') 
+		{
             cout << "DJ";
-        } else if (reversedText[i] == 'Y') {
+        } 
+		else if (reversedText[i] == 'Y') 
+		{
             cout << "J";
-        } else if (reversedText[i] == 'C') {
+        } 
+		else if (reversedText[i] == 'C') 
+		{
             cout << "TJ";
-        } else {
+        } 
+		else 
+		{
             cout << reversedText[i];
         }
     }
